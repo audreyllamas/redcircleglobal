@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Circle Global</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="nav-bar">
+            <button class="nav-toggle">
+                <img src="nav.png" alt="Navigation Icon" class="nav-icon">
+            </button>            
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Red Circle Global</h1>
+        </div>
+        <div class="icons">
+            <div class="icon-container" id="language-icon">
+                <img src="language.webp" alt="English Language" class="icon">
+            </div>
+            <div class="icon-container" id="switch-icon">
+                <img src="switch.png" alt="Switch Student" class="icon">
+            </div>
+            <div class="icon-container" id="calendar-icon">
+                <img src="calendar.png" alt="Calendar" class="icon">
+            </div>
+            <div class="icon-container" id="todo-icon">
+                <img src="todo.png" alt="To-Do List" class="icon">
+            </div>
+            <div class="icon-container" id="chat-icon">
+                <img src="chat.png" alt="Chat" class="icon">
+            </div>
+            <div class="icon-container" id="notification-icon">
+                <img src="notification.png" alt="Notification" class="icon">
+            </div>
+            <div class="profile-icon">
+                <img src="profile.png" alt="Profile" class="icon" id="profile-icon">
+                <div class="profile-dropdown" id="profile-dropdown">
+                    <p>Your Profile</p>
+                    <p>Settings</p>
+                    <p>Logout</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="userprofile.jpg" alt="Profile Picture" class="profile-pic">
+                <h2>Your Name</h2>
+                <p>yourmail@domain.com | +1 234 567 89</p>
+                <button class="edit-btn">Edit</button>
+            </div>
+            <div class="info-box personal-info">
+                <div class="info-group">
+                    <div class="info-item">
+                        <p><strong>LIN:</strong> 123456</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Admission No:</strong> shd0001</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Roll Number:</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-box class-details">
+                <div class="info-group">
+                    <div class="info-item">
+                        <p><strong>Class:</strong> Pre-Kinder</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Section:</strong> KINDNESS</p>
+                    </div>
+                </div>
+            </div>
+            <button class="pre-enroll-btn">Pre-Enroll (2023-24)</button>
+            <p class="status-msg">You are doing well, you can now send your pre-enrollment application for this school year.</p>
+        </aside>
+        <main class="content">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="profile">Profile</button>
+                <button class="tab-btn" data-tab="academic-records">Academic Records</button>
+                <button class="tab-btn" data-tab="documents">Documents</button>
+                <button class="tab-btn" data-tab="timeline">Timeline</button>
+            </div>
+            <section class="tab-panel active" id="profile">
+                <div class="personal-info-section">
+                    <div class="info-box">
+                        <h4 class="section-title">Personal Information</h4>
+                        <div class="info-group">
+                            <p><strong>Date of Birth:</strong> 01/01/1970</p>
+                            <p><strong>Mobile Number:</strong> 09654112326</p>
+                            <p><strong>Religion:</strong></p>
+                            <p><strong>Email:</strong> example_student@redcircleglobal.com</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h4 class="section-title">Address</h4>
+                        <div class="info-group">
+                            <p><strong>Current Address:</strong></p>
+                            <p><strong>Permanent Address:</strong></p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h4 class="section-title">Parent / Guardian Details</h4>
+                        <div class="info-group">
+                            <div class="info-item">
+                                <h5>Father Details</h5>
+                                <p><strong>Name:</strong> example_father, example_father example_father</p>
+                                <p><strong>Phone:</strong> [Phone Number]</p>
+                                <p><strong>Occupation:</strong> [Occupation]</p>
+                            </div>
+                            <div class="info-item">
+                                <h5>Mother Details</h5>
+                                <p><strong>Name:</strong> example_father, example_father</p>
+                                <p><strong>Phone:</strong> 09654103232</p>
+                                <p><strong>Occupation:</strong> [Occupation]</p>
+                            </div>
+                            <div class="info-item">
+                                <h5>Guardian Details</h5>
+                                <p><strong>Name:</strong> example_father, example_father</p>
+                                <p><strong>Email:</strong> example_guardian@redcircleglobal.com</p>
+                                <p><strong>Relation:</strong> Mother</p>
+                                <p><strong>Phone:</strong> 09654103232</p>
+                                <p><strong>Occupation:</strong> [Occupation]</p>
+                                <p><strong>Address:</strong> [Address]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h4 class="section-title">Miscellaneous Details</h4>
+                        <div class="info-group">
+                            <p><strong>Previous School Details:</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tab-panel" id="academic-records">
+                <div class="academic-records-content">
+                    <h2>Academic Records</h2>
+                    <table class="academic-table">
+                        <thead>
+                            <tr>
+                                <th>Semester</th>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fall 2023</td>
+                                <td>CS 101</td>
+                                <td>Introduction to Computer Science</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>Spring 2024</td>
+                                <td>CS 201</td>
+                                <td>Data Structures and Algorithms</td>
+                                <td>4</td>
+                                <td>B+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="tab-panel" id="documents">
+                <div class="documents-content">
+                    <h2>Documents</h2>
+                    <ul class="documents-list">
+                        <li>
+                            <a href="transcript.pdf" target="_blank">Transcript</a>
+                        </li>
+                        <li>
+                            <a href="certificate.pdf" target="_blank">Certificate of Enrollment</a>
+                        </li>
+                        <li>
+                            <a href="id-card.pdf" target="_blank">Student ID Card</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="tab-panel" id="timeline">
+                <div class="timeline-content">
+                    <h2>Timeline</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Enrollment</h3>
+                            <p>Date: August 10, 2024</p>
+                            <p>Description: Successfully enrolled for the academic year 2024-2025.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Midterm Exams</h3>
+                            <p>Date: November 15, 2024</p>
+                            <p>Description: Midterm exams for the Fall 2024 semester.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Final Exams</h3>
+                            <p>Date: April 30, 2025</p>
+                            <p>Description: Final exams for the Spring 2025 semester.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
